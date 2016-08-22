@@ -1,0 +1,37 @@
+h1 {
+	background: #EE82EE;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    border: dotted;
+    text-align: center;
+	vertical-align: middle;
+	line-height: 90px;  
+}
+
+body {
+	background: #ffcccc;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/236x/46/8a/3a/468a3a33622c5a10e6f09f4a5bc41c03.jpg);
+	border: dotted;
+	padding: 20px; 
+}
+
+#dish {
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+}
+
+.recomms {
+	font-family:  "courier"
+}
+
+a:visited {
+    color: green;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 8pt; 
+    }
+}
